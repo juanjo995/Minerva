@@ -8,7 +8,7 @@ With Minerva you can easily encrypt and decrypt your files.
 
 Minerva uses the algorithm AES-256 in CTR mode and PBKDF2 to derive keys.
 
-## Plaintext mode
+## 📝 Plaintext mode
 
 Minerva includes a plaintext mode for files containing plaintext, allowing you to modify your most sensitive information without it ever being stored on your hard drive in an unencrypted state.
 
@@ -24,19 +24,19 @@ Encrypt: `openssl enc -e -aes-256-ctr -pbkdf2 -salt -in inputFile -out outputFil
 
 Decrypt: `openssl enc -d -aes-256-ctr -pbkdf2 -in inputFile -out outputFile`
 
-## Language support
+## 🌐 Language support
 
 Minerva includes 84 languages. English and Spanish translations were made by me, the rest of translations were made using AI so some translations may be wrong or inaccurate.
 
 <img width="302" height="224" alt="languages" src="https://github.com/user-attachments/assets/490bb24a-c801-42a7-b939-3d4fc95651b0" />
 
-## Run it
+## 🚀 Run it
 
 Just go to [Releases](https://github.com/juanjo995/Minerva/releases) and download the executable for your OS version, Windows, Linux or macOS.
 
-## How to compile this project
+## ⚙️ How to compile this project
 
-### Windows
+### 🪟 Windows
 
 This project needs CMake to be compiled, if you don't have CMake you can download it from [here](https://cmake.org/download/).
 
@@ -96,7 +96,7 @@ Modify the file `build\_deps\tiny_aes-src\aes.h` as explained above.
 
 (If you prefer to use **Ninja** run `cmake --build .`)
 
-### Linux
+### 🐧 Linux
 
 First, you need to install these dependencies.
 
@@ -124,7 +124,7 @@ You have to comment the line `#define AES128 1` and uncomment the line `#define 
 
 `make`
 
-### macOS
+### 🍎 macOS
 
 First, ensure that you have the compiler and the development tools.
 
