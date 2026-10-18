@@ -1,5 +1,7 @@
 # Minerva
 
+<img width="512" height="512" alt="logo" src="https://github.com/user-attachments/assets/9e83d856-822d-46ae-aa5f-625cdcf54535" />
+
 With Minerva you can easily encrypt and decrypt your files.
 
 <img width="512" height="256" alt="NormalMode" src="https://github.com/user-attachments/assets/95686a10-879d-459c-90ac-85f8bd5ce76c" />
