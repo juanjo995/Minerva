@@ -147,6 +147,11 @@ add_executable(main WIN32
 )
 
 if(WIN32)
+  enable_language(RC)
+  target_sources(main PRIVATE ${CMAKE_SOURCE_DIR}/app.rc)
+endif()
+
+if(WIN32)
     target_compile_definitions(main PRIVATE NOMINMAX) # Windows define variables min y max que entran en conflicto con otras que estamos usando, hay que poner esta linea para arreglarlo
 endif()
 
