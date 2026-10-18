@@ -1214,8 +1214,12 @@ void GUI::draw(ImGuiIO& io) {
 			ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4(1.0f, 1.0f, 1.0f, 0.15f));
 			ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(1.0f, 1.0f, 1.0f, 0.25f));
 			if (ImGui::ImageButton("###folderButton", folder.ImGuiID, ImVec2(buttonSize, buttonSize), ImVec2(0.0f, 0.0f), ImVec2(1.0f, 1.0f), ImVec4(0.0f, 0.0f, 0.0f, 0.0f), colorValues[static_cast<ThemeColor>(currentColor)])) {
-				path = openFileDialog();
+				std::string auxString = openFileDialog();
+				if(!auxString.empty()) {
+					path = auxString;
+					fileExists = std::filesystem::is_regular_file(path);
 
+				}
 			}
 			if (ImGui::IsItemHovered()) {
 				ImGui::SetMouseCursor(ImGuiMouseCursor_Hand);
