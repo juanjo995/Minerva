@@ -175,7 +175,7 @@ This project relies on a few libraries to work:
 
 | Asset | Author | License |
 |-------|--------|---------|
-| [App logo](https://www.dreamstime.com/223904713) | [Svetlana Alyuk](https://dreamstime.com/cattallina_info) · [Facebook profile](https://www.facebook.com/svetlana.alyuk) | Proprietary – used **WITHOUT** permission. All rights reserved. |
+| [App logo](https://www.dreamstime.com/223904713) | [Svetlana Alyuk](https://dreamstime.com/cattallina_info) · [Instagram profile](https://www.instagram.com/bravecolors/) | Proprietary · All rights reserved. |
 | [Flag icons](https://github.com/HatScripts/circle-flags) | HatScripts | MIT |
 | [Settings icon](https://www.svgrepo.com/svg/435417/settings) | Nuiverse Design | BSD |
 | [Folder icon](https://www.svgrepo.com/svg/365406/folder-notch-open-thin) | Phosphor Icons | MIT |
@@ -187,4 +187,4 @@ This project relies on a few libraries to work:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 or later, except for the application logo, which is © Svetlana Alyuk and is used **WITHOUT** permission. It is not covered by the GPL and may not be reused, modified or redistributed without the author’s permission.
+This project is licensed under the GNU General Public License v3.0 or later, except for the application logo, which is © Svetlana Alyuk. It is not covered by the GPL and may not be reused, modified or redistributed without the author’s permission.
